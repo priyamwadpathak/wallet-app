@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  owned_by: MyString
+  status: false
+  enabled_at: 2022-04-06 18:13:40
+  balance: 1
+
+two:
+  user: two
+  owned_by: MyString
+  status: false
+  enabled_at: 2022-04-06 18:13:40
+  balance: 1

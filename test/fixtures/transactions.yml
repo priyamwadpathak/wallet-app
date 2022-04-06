@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wallet: one
+  type: 
+  deposited_by: MyString
+  deposited_at: 2022-04-06 18:17:30
+  withdrawn_by: MyString
+  withdrawn_at: 2022-04-06 18:17:30
+  status: MyString
+  amount: 1
+  reference_id: MyString
+
+two:
+  wallet: two
+  type: 
+  deposited_by: MyString
+  deposited_at: 2022-04-06 18:17:30
+  withdrawn_by: MyString
+  withdrawn_at: 2022-04-06 18:17:30
+  status: MyString
+  amount: 1
+  reference_id: MyString
