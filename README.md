@@ -1,24 +1,16 @@
-# README
+# Wallet App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tech used:
 
-Things you may want to cover:
+* Ruby version - 2.6.5
+* Rails version - 6.1.5
+* Database - postgres
 
-* Ruby version
+Steps to setup on your local machine:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Clone the repo
+* Install ruby version 2.6.5 and postgres on your machine
+* Run command `bundle install`
+* Run command `rails db:create db:migrate`
+* If all above steps are successful, then run `rails server`
+* Use this postman collection to test all the apis - https://www.getpostman.com/collections/768ba0e749f95d4f3ca7
