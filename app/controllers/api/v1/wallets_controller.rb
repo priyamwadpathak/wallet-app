@@ -1,7 +1,7 @@
 module Api
     module V1
         class WalletsController < ApplicationController
-            def init
+            def index
                 @wallet = wallet
                 if @wallet.present?
                     if @wallet.status && params[:is_disabled] == 'true'

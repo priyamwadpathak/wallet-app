@@ -3,7 +3,7 @@ module Api
 		class UsersController < ApplicationController
 			def init
 				if params[:customer_xid].present? && !params[:customer_xid].blank?
-					@user = User.first_or_initialize(uuid: params[:customer_xid], token: generate_token)
+					@user = User.find_or_initialize_by(uuid: params[:customer_xid], token: generate_token)
 					if @user.save
 						render json: {
 							"data": {
